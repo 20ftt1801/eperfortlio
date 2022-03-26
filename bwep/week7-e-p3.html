@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+h3{
+	text-align: center;
+}
+
+.flex-container > div {
+  margin: 10px;
+
+}
+p{
+text-align: center;
+}
+div{
+	text-align: center;
+}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<h3>Registration for Covid-19 Volunteer - &#174;C19-Team</h3>                
+<form method="" action="">
+	<div class="flex-container">
+<div class="a"><label for="name">Fullname</label></div>	
+<div><input type="text" id="name"maxlength="30"></div>
+<div class="b"><label for="email">Email</label></div>
+<div><input type="email" name="email"></div>
+<div><label for="start">Date you can start</label><br>
+<div><input type="date"id="start"></div><br>
+<div><label for="appt1">Morning shift preference</label></div><br>
+<div><input type="time" id="appt1"name="appt1"></div><br>
+<div><label for="appt1">Evening shift perference</label></div><br>
+<div><input type="time" id="appt2"name="appt2"></div><br>
+<div><label for="number">How many hours you can work? In multiple of 3</label><br>
+<div><input id="number" type="number" min="3" max="9"></div><br>
+<div><label for="range">Distance you willing to commute</label></div><br>
+<div><output>1</output><input id="range" type="range" value="3" min="1" max="15"><output>15</output></br></div><br>
+<div><label for="money1">You currency perference for payment?</label></div>
+&#163;<input type="radio" name="money1">
+&#165;<input type="radio" name="money1">
+&#128;<input type="radio" name="money1"></div>
+<p><textarea name="story" rows="6" cols="40" placeholder="Type your home address"colspan="2"></textarea></p>
+<p><label for="daily" colspan="2"><s>You will be given daily meals</s></label></p>
+<p><input type="checkbox" name="i"colspan="2">I agree to all term of service</p>
+<p>Prove you are not robot 10&#60;20?<input type="checkbox" name="a"colspan="2"></p>
+<p><input type="submit" value="Volunteer now!" colspan="2"></p>
+<p><input type="submit" value="start over" colspan="2" id="one"></p>
+<p>For more informaton, visit MOH <a href="https://www.moh.gov.bn/Pages/Home.aspx" colspan="2" id="one">website</a></p>
+</form>
+</body>
+</html>
